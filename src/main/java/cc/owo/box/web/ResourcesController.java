@@ -32,6 +32,9 @@ public class ResourcesController {
     }
 
 
+    /**
+     * @return
+     */
     @GetMapping("/resources")
     public Object getResource() {
         List<Resources> resources = resourcesMapper.selectAll();
