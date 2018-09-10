@@ -18,6 +18,10 @@ public class ResourcesController {
     @Autowired
     private ResourcesMapper resourcesMapper;
 
+    /**
+     * @param resources
+     * @return
+     */
     @PostMapping("/resources")
     public String addResource(Resources resources) {
         if(resources == null) {
