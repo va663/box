@@ -28,6 +28,6 @@ spring:
       stat-view-servlet.enabled: true
       stat-view-servlet.url-pattern: /druid/*
 mybatis:
-  type-aliases-package: cc.owo.box.entity  # 注意：对应实体类的路径
+  type-aliases-package: cc.owo.box.entity  # 注意：对应实体类的路     径
 
 
